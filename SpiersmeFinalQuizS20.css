@@ -1,0 +1,147 @@
+/**** Spiersme Final Project Quiz Spring 2020 ****/
+
+
+/***********    Main content     **********/
+
+body{
+    background-image: url('ombre_background.jpg');
+    background-size: cover;
+}
+
+#subtitle{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    width: 100%;
+    font-size: 25px;
+    color: #d46327;
+    text-align: center;
+}
+
+/***********    Quiz     **********/
+
+#questionsWrapper{
+    float:left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 27px;
+    width: 70%;
+    margin-left: 20%;
+}
+
+.questions{
+    font-family: 'Open Sans', sans-serif;
+    color: navy;
+    display: block;
+    margin-bottom: 60px;
+    
+}
+
+.answers{
+    font-weight: 500;
+    font-size: 23px;
+    color: #4141ac;
+}
+
+#submit{
+    background-color: #88dae8;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #4fb5c7;
+    margin-bottom: 25px;
+}
+
+/***********    Results     **********/
+
+#resultCatWrap{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 27px;
+    width: 70%;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 5px solid navy;
+    background: #f2dbdb;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+/***********    Text area     **********/
+
+#resultTextWrap{
+    margin-left: 5%;
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    color: #712936;
+}
+
+#resultHeading{
+    font-weight: bold;
+}
+
+#catNameAsh{
+    margin-top: -5%;
+    font-size: 40px;
+    margin-left: 35%;
+}
+
+#catNamePud{
+    margin-top: -5%;
+    font-size: 40px;
+    margin-left: 28%;
+}
+
+p{
+    font-size: 29px;
+    word-wrap: break-word;
+    color: #a84054;
+}
+
+/***********    Pic area     **********/
+
+#Ash_pic{
+    display: inline-block;
+    width: 30%;
+    border-radius: 10px;
+    margin:2%;
+    margin-left: 5%;
+    vertical-align: middle;
+}
+
+#Pud_pic{
+    display: inline-block;
+    width: 30%;
+    border-radius: 10px;
+    margin:2%;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+#Pud_pic{
+    display: inline-block;
+    width: 40%;
+    border-radius: 10px;
+    margin:2%;
+    margin-top: 3%;
+}
+
+.clear:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/******* References ********
+
+https://fonts.google.com/specimen/Permanent+Marker
+
+https://fonts.google.com/specimen/Permanent+Marker?sidebar.open&selection.family=Open+Sans
+
+https://www.w3schools.com/cssref/pr_font_weight.asp
+
+https://www.w3schools.com/cssref/pr_border.asp
+
+*********/

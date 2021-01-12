@@ -1,0 +1,64 @@
+/**** Spiersme Final Project Contact Spring 2020 ****/
+
+
+/***********    Main content     **********/
+
+body{
+    background-image: url('ombre_background.jpg');
+    background-size: cover;
+}
+
+#formWrapper{
+    float:left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 10%;
+}
+
+#pictureWrapper{
+    float:left;
+    font-family: sans-serif;
+    margin-top: 40px;
+    margin-left: 5%;
+    width: 35%;
+}
+
+#sidePuddlePic{
+    width: 80%;
+}
+
+/***********    Submit button     **********/
+
+input[type=submit] {
+    background-color: #88dae8;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #4fb5c7;
+}
+
+/***********    Submission Responses    **********/
+
+#messageSent {
+    color:black;
+}
+
+#messageFailed {
+    color:red;
+}
+
+/***********    References     *********
+
+https://fonts.google.com/specimen/Permanent+Marker
+
+https://fonts.google.com/specimen/Permanent+Marker?sidebar.open&selection.family=Open+Sans
+
+https://www.w3schools.com/howto/howto_css_contact_section.asp
+
+https://www.w3schools.com/cssref/pr_border.asp
+
+*/

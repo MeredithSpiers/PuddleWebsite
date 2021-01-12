@@ -1,0 +1,138 @@
+/**** Spiersme Final Project Home Spring 2020 ****/
+
+
+/***********    Main content     **********/
+
+body{
+    background-image: url('ombre_background.jpg');
+    background-size: cover;
+}
+
+#mainWrapper {
+    float:left;
+    font-family: sans-serif;
+    width: 70%;
+}
+
+.mainSections {
+    display: block;
+    background: #abdff2;
+    border: 8px solid #4393ce;
+    width: 70%;
+    padding: 8px;
+    margin: 20px;
+    margin-left: 20%;
+    margin-top: 30px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 27px;
+    text-align: center;
+    color: #3a427e;
+}
+
+.contentDate {
+    text-align: left;
+    font-size: 15px;
+    color: #7780a0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contentText {
+    font-size:20px;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+#mainContent {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#mainPuddlePic{
+    width: 60%;
+    margin-left: auto;
+    margin-right:auto;
+    display: block;
+}
+
+/***********    Side section     **********/
+
+/**** Login section ****/
+#rSideWrapper {
+    float: left;
+    font-family: sans-serif;
+    width: 30%;
+}
+
+#loginSection {
+    display:block;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+    background: #f7e6cf;
+    border: 8px solid #faaa5b;
+    margin: 20px;
+}
+
+.loginText {
+    font-size: 20px;
+    color:#3a427e;
+}
+
+#loginFail {
+    font-size: 15px;
+    color:#c92929;
+    overflow-wrap: break-word;
+}
+
+
+/**** Right side lower sections ****/
+
+.rSideSections {
+    display:block;
+    font-size: 25px;
+    color:#3a427e;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    overflow-wrap: break-word;
+    padding: 20px;
+    background: #f7eecf;
+    border: 8px solid #fad55b;
+    margin: 40px;
+}
+
+hr{
+    border: 2px dotted pink;
+}
+
+#rSideContent {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#insta{
+    width: 70%;
+    margin: 10px;
+    margin-left: 14%;
+    margin-right:auto;
+    
+}
+
+
+/***********    References    ***********
+
+https://fonts.google.com/specimen/Permanent+Marker
+
+https://fonts.google.com/specimen/Permanent+Marker?sidebar.open&selection.family=Open+Sans
+
+https://www.freecodecamp.org/news/how-to-use-google-fonts-in-your-next-web-design-project-e1ad48f1adfa/
+
+https://www.w3schools.com/css/css_image_transparency.asp
+
+https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle
+
+https://css-tricks.com/almanac/properties/o/overflow-wrap/
+
+https://stackoverflow.com/questions/40242378/underline-from-left-to-right-on-hover-in-and-out
+
+*/

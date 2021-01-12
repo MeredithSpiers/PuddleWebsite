@@ -1,0 +1,131 @@
+/**** Spiersme Final Project Theme Spring 2020 ****/
+
+
+/***********    Navigation Bar     **********/
+
+#navBar { 
+    position: fixed;
+    background-image: url('cat_fur2.jpg');
+    background-size: cover;
+    top: 0;
+    width: 100%;
+    right: 0;
+    padding: 40px;
+}
+
+a:hover {
+    color: #91d99f;
+}
+
+button:hover {
+    color: #91d99f;
+}
+
+.navTabs{
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bold;
+    color: white;
+    position: fixed;
+    font-size: 28px;
+    font-weight: 300;
+    margin: 8px;
+    text-align: left;
+    text-decoration: none;
+}
+
+#navHome{
+    margin-left: 90px;
+}
+            
+#navQuiz{
+    margin-left: 370px;
+}
+            
+#navGallery{
+    margin-left: 620px;
+    margin-top: 5px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#navContact{
+    margin-left: 910px;
+}
+
+#navLogout{
+    margin-left: 1200px;
+    margin-top: 5px;
+}
+
+.clear:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/***********    Gallery Dropdown     **********/
+
+.dropdown {
+    position: fixed;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f5e5d9;
+    margin-top: 50px;
+    margin-left: 620px;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.dropdown-content a:hover {
+    background-color: #f5cdb0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/***********    Title section     **********/
+
+h1{
+    text-align: center;
+    display: block;
+    font-family: 'Permanent Marker', cursive;
+    color:#ea7777;
+    font-size: 40px;
+    margin-top: 115px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-bottom: 6px solid #e06767; 
+    line-height: 0.1em;
+}
+
+h1 span{
+    background:#facfde; 
+    padding:0 30px; 
+}
+
+/***********    References      ************
+
+https://fonts.google.com/specimen/Permanent+Marker
+
+https://fonts.google.com/specimen/Permanent+Marker?sidebar.open&selection.family=Open+Sans
+
+https://stackoverflow.com/questions/2511048/how-do-you-refer-to-more-than-one-css-file-in-html
+
+**********/
